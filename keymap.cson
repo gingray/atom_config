@@ -1,1 +1,11 @@
-/Users/admin/.atom/keymap.cson
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'g s': 'rails-open-rspec:open-rspec-file'
+  'ctrl-j': 'core:page-down'
+  'ctrl-k': 'core:page-up'
+  '\\ t': 'fuzzy-finder:toggle-file-finder'
+
+'.platform-darwin.vim-mode:not(.insert-mode)':
+  'g shift-T': 'pane:show-previous-item'
+  'g t': 'pane:show-next-item'
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
