@@ -9,3 +9,11 @@
   'g t': 'pane:show-next-item'
   'ctrl-j': 'core:move-down'
   'ctrl-k': 'core:move-up'
+
+'.select-list.fuzzy-finder .editor':
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
+
+'.preview-pane.pane-item':
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
