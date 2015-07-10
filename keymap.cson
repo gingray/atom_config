@@ -17,3 +17,14 @@
 '.preview-pane.pane-item':
   'ctrl-j': 'core:move-down'
   'ctrl-k': 'core:move-up'
+
+'.platform-darwin':
+  'cmd-t': 'application:new-file'
+
+'.settings-view.pane-item':
+  'g shift-T': 'pane:show-previous-item'
+  'g t': 'pane:show-next-item'
+
+'.preview-pane.pane-item':
+  'g shift-T': 'pane:show-previous-item'
+  'g t': 'pane:show-next-item'
